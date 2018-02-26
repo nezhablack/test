@@ -1,0 +1,28 @@
+html {
+    background: white;
+}
+html * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.layout {
+    background-color:#eee;
+    box-shadow: 0 5px 5px 0px #ccc, inset 10px 0 #BC4D25;
+    max-width: 300px;
+    margin: 50px auto 0 auto;
+    padding: 25px;
+    padding-left: 40px;
+}
+.description {
+    display: inline-block;
+    color: #BC4D25;
+    font-size: 1.3em;
+}
+.description__subtitle {
+    opacity: .7;
+}
+.userpic {
+    max-width: 300px;
+    border-radius: 5%;
+    filter: saturate(50%);
+    display: inline-block;
+}
